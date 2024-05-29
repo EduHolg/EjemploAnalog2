@@ -5,7 +5,7 @@
 
 `default_nettype none
 
-module tt_um_adennen_inverter (
+module tt_um_Saitama225_comp (
     input  wire       VGND,
     input  wire       VPWR,
     input  wire [7:0] ui_in,    // Dedicated inputs

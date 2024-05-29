@@ -9,12 +9,11 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-This is the double inverter project from Matt's analog course,
-it's two inverters (one big and one small) connected for form a buffer
+Circuit that compares two voltages or currents and produces a binary output indicating which input is greater.
 
 ## How to test
 
-Analog input is ua[1], output is ua[0]
+To test a comparator, apply known input voltages and check if the output logic level matches the expected result based on the input conditions. Vary the input voltages across the entire range and verify the output transitions occur at the specified threshold voltage.
 
 ## External hardware
 

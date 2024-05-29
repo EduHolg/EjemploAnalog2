@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        "Aron's analog buffer test"      # Project title
+  title:        "Analog comparator"      # Project title
   author:       "Diego Carrera and Leonel Miranda"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "Double inverter project from Matt's analog course"      # One line description of what your project does
+  description:  "Analog comparator made by the MNEL team from USFQ."      # One line description of what your project does
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -14,7 +14,7 @@ project:
   analog_pins: 3        # Valid values: 0 to 6
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
-  top_module:  "tt_um_adennen_inverter"
+  top_module:  "tt_um_Saitama225_comp"
 
   # List your project's source files here. Source files must be in ./src and you must list each source file separately, one per line:
   source_files:        
