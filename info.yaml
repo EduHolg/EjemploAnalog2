@@ -1,8 +1,8 @@
 # Tiny Tapeout project information
 project:
   title:        "Aron's analog buffer test"      # Project title
-  author:       "Aron Dennen"      # Your name
-  discord:      "arond81"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  author:       "Diego Carrera and Leonel Miranda"      # Your name
+  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Double inverter project from Matt's analog course"      # One line description of what your project does
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
@@ -11,7 +11,7 @@ project:
   tiles: "1x2"          # Valid values: 1x1 (digital only), 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
 
   # How many analog pins does your project use?
-  analog_pins: 2        # Valid values: 0 to 6
+  analog_pins: 3        # Valid values: 0 to 6
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
   top_module:  "tt_um_adennen_inverter"
@@ -53,9 +53,9 @@ pinout:
   uio[7]: ""
 
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
-  ua[0]: "analog output"
-  ua[1]: "analog input"
-  ua[2]: ""
+  ua[0]: "analog input"
+  ua[1]: "analog reference"
+  ua[2]: "analog output"
   ua[3]: ""
   ua[4]: ""
   ua[5]: ""
